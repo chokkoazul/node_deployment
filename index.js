@@ -26,4 +26,3 @@ app.use(express.static('public'));
 app.use('/', routes());
 
 app.listen(process.env.PORT || 5000);   
-s
